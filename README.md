@@ -72,21 +72,21 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a>HTML</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary></summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a>CSS</a></li>
   </ul>
 </details>
 
 <details>
-<summary>Database</summary>
+<summary></summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a>Javascript</a></li>
   </ul>
 </details>
 
@@ -135,39 +135,42 @@ Example command:
 ### Setup
 
 2.Clone this repository to your desired folder:
+```sh
 cd my-folder
   git clone https://github.com/lawrahkonwea/To-Do-List-App.git
+```
 <!--
 Example commands:
 
-```sh
+
   
-```
+
 --->
 
 ### Install
 
 Install this project with:
-install node modules
-<!--
-Example command:
-
+node modules
 ```sh
   cd my-project
   npm install
 ```
+<!--
+Example command:
+
+
 --->
 
 ### Usage
 
 To run the project, execute the following command:
-
-<!--
-Example command:
-
 ```sh
   npm run build
 ```
+<!--
+Example command:
+
+
 --->
 
 ### Run tests
@@ -184,7 +187,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+Push changes to a branch. Wait for the build to pass on our CI server. Tell Hubot to deploy it. Verify that the changes work and fix any problems that come up. Merge the branch into master.
 
 <!--
 Example:
