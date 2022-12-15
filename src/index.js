@@ -2,48 +2,18 @@
 import _ from 'lodash';
 /* eslint-enable */
 import './style.css';
+import { addList, displayList } from './modules/user.js';
+import localGet from './modules/localStorage.js';
 
-const toDoList = [
-  {
-    description: 'wash the dishes',
-    completed: true,
-    index: 1,
-  },
-  {
-    description: 'complete To Do list project',
-    completed: false,
-    index: 2,
-  },
-  {
-    description: 'clean the house',
-    completed: true,
-    index: 3,
-  },
-];
+const form = document.querySelector('.list-con');
+const todoTask = document.getElementById('input');
 
-toDoList.forEach((toDo) => {
-  const { description, completed, index } = toDo;
-  const ulLists = document.querySelector('.ul-items');
+window.addEventListener('load', () => {
+  displayList();
+});
 
-  const list = document.createElement('li');
-  list.setAttribute('class', 'list');
-  list.setAttribute('id', index);
-  ulLists.appendChild(list);
-
-  const checkCon = document.createElement('div');
-  checkCon.className = 'checkbox-con';
-  list.appendChild(checkCon);
-
-  const checkbox = document.createElement('input');
-  checkbox.setAttribute('type', 'checkbox');
-  checkbox.checked = completed;
-  checkCon.appendChild(checkbox);
-
-  const paragraph = document.createElement('p');
-  paragraph.textContent = description;
-  checkCon.appendChild(paragraph);
-
-  const ellipsis = document.createElement('i');
-  ellipsis.setAttribute('class', 'fa fa-ellipsis-v');
-  list.appendChild(ellipsis);
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  addList(todoTask.value, false, localGet().length + 1);
+  displayList();
 });
