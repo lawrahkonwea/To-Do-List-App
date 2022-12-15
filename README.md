@@ -122,39 +122,39 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
-
+1.In order to run this project you need:
+Vscode must have git installed
 <!--
 Example command:
 
 ```sh
- npm run build
+ 
 ```
  -->
 
 ### Setup
 
-Clone this repository to your desired folder:
-
+2.Clone this repository to your desired folder:
+cd my-folder
+  git clone https://github.com/lawrahkonwea/To-Do-List-App.git
 <!--
 Example commands:
 
 ```sh
-  cd my-folder
-  git clone https://github.com/lawrahkonwea/To-Do-List-App.git
+  
 ```
 --->
 
 ### Install
 
 Install this project with:
-
+install node modules
 <!--
 Example command:
 
 ```sh
   cd my-project
-  gem install
+  npm install
 ```
 --->
 
@@ -166,7 +166,7 @@ To run the project, execute the following command:
 Example command:
 
 ```sh
-  rails server
+  npm run build
 ```
 --->
 
