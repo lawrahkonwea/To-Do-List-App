@@ -57,7 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [To-Do List App] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
@@ -128,7 +128,7 @@ In order to run this project you need:
 Example command:
 
 ```sh
- gem install rails
+ npm run build
 ```
  -->
 
@@ -141,7 +141,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/lawrahkonwea/To-Do-List-App.git
 ```
 --->
 
