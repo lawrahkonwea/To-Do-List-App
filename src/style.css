@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(200, 215, 255);
+  font-family: "Quicksand", sans-serif;
+  color: rgb(4, 32, 68);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.todo-header {
+  font-weight: 500;
+}
+
+hr {
+  border: 1px solid;
+}
+
+.todolist-con {
+  background-color: white;
+  width: 65%;
+  padding: 50px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.list-con {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.list-con input {
+  border: none;
+  font-weight: 700;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.Completedbtn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.checkbox-con {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.btn-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ul-items {
+  list-style: none;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 0 7px;
+}
