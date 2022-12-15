@@ -69,26 +69,17 @@ After you're finished please remove all the comments and instructions!
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
-<details>
-  <summary>Client</summary>
+
   <ul>
     <li><a>HTML</a></li>
   </ul>
-</details>
-
-<details>
-  <summary></summary>
   <ul>
     <li><a>CSS</a></li>
   </ul>
-</details>
-
-<details>
-<summary></summary>
   <ul>
     <li><a>Javascript</a></li>
   </ul>
-</details>
+
 
 <!-- Features -->
 
