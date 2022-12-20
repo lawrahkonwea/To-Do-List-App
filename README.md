@@ -99,7 +99,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](http://localhost:8081/)
+- [Live Demo Link](https://lawrahkonwea.github.io/To-Do-List-App/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
