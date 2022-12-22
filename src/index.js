@@ -2,7 +2,9 @@
 import _ from 'lodash';
 /* eslint-enable */
 import './style.css';
-import { addList, displayList } from './modules/user.js';
+import {
+  addList, displayList, removeList, updateList, updateChecked,
+} from './modules/user.js';
 import clearCompleted from './modules/clearAll.js';
 import localGet from './modules/localStorage.js';
 
@@ -13,6 +15,10 @@ const clearAll = document.getElementById('Completedbtn');
 window.addEventListener('load', () => {
   displayList();
 });
+
+window.removeList = removeList;
+window.updateList = updateList;
+window.updatechecked = updateChecked;
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
