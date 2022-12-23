@@ -3,8 +3,9 @@
  */
 
 import {
-  addList, removeList, updateList,
+  addList, removeList, updateList, updateChecked,
 } from './user.js';
+import clearCompleted from './clearAll.js';
 
 document.body.innerHTML = `<section>
 <div class="todolist-con">
@@ -47,5 +48,18 @@ describe('when we add, delete basic items', () => {
     const data = JSON.parse(localStorage.getItem('listStorage'));
     const checkData = data.filter((item) => item.index === 1);
     expect(checkData[0].description).toBe('im Josue');
+  });
+  test('when we check an item', () => {
+    document.querySelector('#check-0').checked = true;
+    updateChecked(0);
+    const data = JSON.parse(localStorage.getItem('listStorage'));
+    const checkData = data.filter((item) => item.index === 1);
+    expect(checkData[0].completed).toBeTruthy();
+  });
+  test('when we remove all completed items', () => {
+    clearCompleted();
+    const data = JSON.parse(localStorage.getItem('listStorage'));
+    const checkData = data.filter((item) => item.index === true);
+    expect(checkData).toHaveLength(0);
   });
 });
