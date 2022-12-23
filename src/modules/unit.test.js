@@ -10,16 +10,20 @@ import clearCompleted from './clearAll.js';
 
 document.body.innerHTML = `<section>
 <div class="todolist-con">
-    <h1 class="todo-header">Today's To Do</h1>
-    <form class="list-con">
-        <input type="text" name="text" id="input" placeholder="Add to your list">
-        <button type="submit" id="added"><i class=" add">add</i></button>
-    </form>
-    <div id="listItem"></div>
-    <div class="btn-con">
-        <button id="Completedbtn">Clear Completed Tasks</button>
-    </div>
-</div>
+            <h1 class="todo-header">My To Do List</h1>
+            
+                <div class="head"><p>Today's to do</p><i class="fa-sharp fa-solid fa-arrows-rotate"></i></div>
+
+            <form action="submit" class="list-con">
+                <input type="text" name="text" class="input" id="input" placeholder="Add to your list....">
+                <button type="submit" id="added"><i class="add">add</i></button> 
+            </form>
+            
+            <div id="listItem"></div>
+            <div class="btn-con">
+                <button type="submit" id="Completedbtn" class="Completedbtn">Clear Completed Tasks</button>
+            </div>
+        </div>
 </section>`;
 
 describe('when we add, delete basic items', () => {
