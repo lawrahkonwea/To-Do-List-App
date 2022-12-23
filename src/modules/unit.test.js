@@ -7,7 +7,6 @@ import {
 } from './user.js';
 import clearCompleted from './clearAll.js';
 
-
 document.body.innerHTML = `<section>
 <div class="todolist-con">
             <h1 class="todo-header">My To Do List</h1>
