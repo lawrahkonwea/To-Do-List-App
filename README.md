@@ -82,7 +82,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://lawrahkonwea.github.io/To-Do-List-App/dist/)
+- [Live Demo Link](https://the-to-do-list-app.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
