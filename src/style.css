@@ -66,6 +66,7 @@ form .input:focus {
 .findInput {
   width: 100%;
   border: none;
+  margin-left: 20px;
 }
 
 .findInput:focus {
