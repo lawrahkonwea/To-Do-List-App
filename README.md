@@ -218,8 +218,8 @@ I would like to thank Microvers and all her staff for their constant support
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/lawrahkonwea/To-Do-List-App/blob/master/License) licensed.
 
-_NOTE: we recommend using the [MIT license](https://github.com/lawrahkonwea/To-Do-List-App/blob/master/License) - 
+_NOTE: we recommend using the  - 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
